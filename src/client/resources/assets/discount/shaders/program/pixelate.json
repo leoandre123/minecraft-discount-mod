@@ -1,0 +1,8 @@
+{
+  "vertex": "minecraft:blit",
+  "fragment": "discount:pixelate",
+  "samplers": [ { "name": "DiffuseSampler" } ],
+  "uniforms": [
+    { "name": "PixelSize", "type": "int", "count": 2, "values": [6, 6] }
+  ]
+}

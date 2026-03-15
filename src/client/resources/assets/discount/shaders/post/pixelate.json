@@ -1,0 +1,21 @@
+{
+  "targets": ["swap"],
+  "passes": [
+    {
+      "name": "copy",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "auxtargets": [],
+      "uniforms": [],
+      "program": "minecraft:blit"
+    },
+    {
+      "name": "back",
+      "intarget": "swap",
+      "outtarget": "minecraft:main",
+      "auxtargets": [],
+      "uniforms": [],
+      "program": "minecraft:blit"
+    }
+  ]
+}

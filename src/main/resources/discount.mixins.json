@@ -3,7 +3,7 @@
 	"package": "com.leodenandre.discount.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"HangingVillagerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
